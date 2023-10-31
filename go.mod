@@ -1,4 +1,4 @@
-module balance-statistic-entity
+module github.com/urmakgkg/balance-statistic-entity
 
 go 1.21.3
 
