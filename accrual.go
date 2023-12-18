@@ -6,7 +6,7 @@ type Accrual struct {
 	ID                         int        `json:"id"`
 	Ls                         string     `json:"ls"`
 	Key                        string     `json:"key"`
-	Period                     string     `json:"period"`
+	Period                     int        `json:"period"`
 	DateBegin                  *time.Time `json:"date_begin"`
 	DateEnd                    *time.Time `json:"date_end"`
 	CounterDisplayPrevious     float64    `json:"counter_display_previous"`
